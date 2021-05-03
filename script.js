@@ -42,6 +42,8 @@ document.getElementById("image-input").addEventListener('change', (e) => {
   buttons[0].disabled = true;
   buttons[1].disabled = true;
   voiceSelect.disabled = true;
+  top_text.disabled = false;
+  bottom_text.disabled = false;
 });
 
 img.addEventListener('load', () => {
@@ -61,6 +63,8 @@ img.addEventListener('load', () => {
   buttons[0].disabled = true;
   buttons[1].disabled = true;
   voiceSelect.disabled = true;
+  top_text.disabled = false;
+  bottom_text.disabled = false;
 });
 
 form.addEventListener('submit', (e) => {
@@ -73,6 +77,8 @@ form.addEventListener('submit', (e) => {
   buttons[0].disabled = false;
   buttons[1].disabled = false;
   voiceSelect.disabled = false;
+  top_text.disabled = true;
+  bottom_text.disabled = true;
   e.preventDefault();
 });
 
@@ -82,6 +88,8 @@ buttons[0].addEventListener('click',() => {
   buttons[0].disabled = true;
   buttons[1].disabled = true;
   voiceSelect.disabled = true;
+  top_text.disabled = false;
+  bottom_text.disabled = false;
 });
 
 buttons[1].addEventListener('click',() => {
