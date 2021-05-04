@@ -1,6 +1,6 @@
 # CSE110 SP21 Lab 5
 
-## Author(s):
+## Author:
 - Yue Zhuo
 
 ## Part 1:
